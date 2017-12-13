@@ -1,0 +1,4 @@
+-cpu=rx600
+-output="C:\Users\Madison\Dropbox\ECGR 4101\Lab 6 Final\Lab6\Debug\Lab6.lib"
+-lang=c99
+-head=runtime,stdio,stdlib

@@ -1,0 +1,5 @@
+"C:\Users\Guest\Desktop\Lab7Final\Lab7Final\r_bsp\board\rdkrx63n\lowlvl.src"
+-cpu=rx600
+-debug
+-output="C:\Users\Guest\Desktop\Lab7Final\Lab7Final\Debug\lowlvl.obj"
+-nologo

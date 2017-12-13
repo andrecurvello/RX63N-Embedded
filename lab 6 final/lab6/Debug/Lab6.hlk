@@ -1,0 +1,34 @@
+-noprelink
+-rom=D=R,D_1=R_1,D_2=R_2
+-nomessage
+-vect=_undefined_interrupt_source_isr
+-list="C:\Users\Madison\Dropbox\ECGR 4101\Lab 6 Final\Lab6\Debug\Lab6.map"
+-nooptimize
+-start=SI,SU,B_1,R_1,B_2,R_2,B,R/00,C_1,C_2,C,C$*,L*,D*,P,W*/0FFF80000,FIXEDVECT/0FFFFFF90
+-nologo
+-input="C:\Users\Madison\Dropbox\ECGR 4101\Lab 6 Final\Lab6\Debug\dbsct.obj"
+-input="C:\Users\Madison\Dropbox\ECGR 4101\Lab 6 Final\Lab6\Debug\flash_options.obj"
+-input="C:\Users\Madison\Dropbox\ECGR 4101\Lab 6 Final\Lab6\Debug\font_8x8.obj"
+-input="C:\Users\Madison\Dropbox\ECGR 4101\Lab 6 Final\Lab6\Debug\glyph.obj"
+-input="C:\Users\Madison\Dropbox\ECGR 4101\Lab 6 Final\Lab6\Debug\hwsetup.obj"
+-input="C:\Users\Madison\Dropbox\ECGR 4101\Lab 6 Final\Lab6\Debug\lcd.obj"
+-input="C:\Users\Madison\Dropbox\ECGR 4101\Lab 6 Final\Lab6\Debug\lowlvl.obj"
+-input="C:\Users\Madison\Dropbox\ECGR 4101\Lab 6 Final\Lab6\Debug\lowsrc.obj"
+-input="C:\Users\Madison\Dropbox\ECGR 4101\Lab 6 Final\Lab6\Debug\main.obj"
+-input="C:\Users\Madison\Dropbox\ECGR 4101\Lab 6 Final\Lab6\Debug\r_glyph.obj"
+-input="C:\Users\Madison\Dropbox\ECGR 4101\Lab 6 Final\Lab6\Debug\r_glyph_register.obj"
+-input="C:\Users\Madison\Dropbox\ECGR 4101\Lab 6 Final\Lab6\Debug\r_rspi_rx600.obj"
+-input="C:\Users\Madison\Dropbox\ECGR 4101\Lab 6 Final\Lab6\Debug\r_switches.obj"
+-input="C:\Users\Madison\Dropbox\ECGR 4101\Lab 6 Final\Lab6\Debug\resetprg.obj"
+-input="C:\Users\Madison\Dropbox\ECGR 4101\Lab 6 Final\Lab6\Debug\sbrk.obj"
+-input="C:\Users\Madison\Dropbox\ECGR 4101\Lab 6 Final\Lab6\Debug\st7579_lcd.obj"
+-input="C:\Users\Madison\Dropbox\ECGR 4101\Lab 6 Final\Lab6\Debug\uart.obj"
+-input="C:\Users\Madison\Dropbox\ECGR 4101\Lab 6 Final\Lab6\Debug\vecttbl.obj"
+-library="C:\Users\Madison\Dropbox\ECGR 4101\Lab 6 Final\Lab6\Debug\Lab6.lib"
+-output="C:\Users\Madison\Dropbox\ECGR 4101\Lab 6 Final\Lab6\Debug\Lab6.abs"
+-end
+-input="C:\Users\Madison\Dropbox\ECGR 4101\Lab 6 Final\Lab6\Debug\Lab6.abs"
+-form=stype
+-output="C:\Users\Madison\Dropbox\ECGR 4101\Lab 6 Final\Lab6\Debug\Lab6.mot"
+-exit
+

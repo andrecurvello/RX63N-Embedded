@@ -1,0 +1,94 @@
+Optimizing Linkage Editor (V.10.02.00.000)        15-Apr-2014 16:39:23
+
+*** Options ***
+
+-subcommand=E:\Embedded\Lab5last\lab5last\Debug\lab5last.hlk
+-noprelink
+-rom=D=R,D_1=R_1,D_2=R_2
+-nomessage
+-vect=_undefined_interrupt_source_isr
+-list="E:\Embedded\Lab5last\lab5last\Debug\lab5last.map"
+-nooptimize
+-start=SI,SU,B_1,R_1,B_2,R_2,B,R/00,C_1,C_2,C,C$*,L*,D*,P,W*/0FFF80000,FIXEDVECT/0FFFFFF90
+-nologo
+-input="E:\Embedded\Lab5last\lab5last\Debug\dbsct.obj"
+-input="E:\Embedded\Lab5last\lab5last\Debug\flash_options.obj"
+-input="E:\Embedded\Lab5last\lab5last\Debug\font_8x8.obj"
+-input="E:\Embedded\Lab5last\lab5last\Debug\glyph.obj"
+-input="E:\Embedded\Lab5last\lab5last\Debug\hwsetup.obj"
+-input="E:\Embedded\Lab5last\lab5last\Debug\lcd.obj"
+-input="E:\Embedded\Lab5last\lab5last\Debug\lowlvl.obj"
+-input="E:\Embedded\Lab5last\lab5last\Debug\lowsrc.obj"
+-input="E:\Embedded\Lab5last\lab5last\Debug\main.obj"
+-input="E:\Embedded\Lab5last\lab5last\Debug\r_glyph.obj"
+-input="E:\Embedded\Lab5last\lab5last\Debug\r_glyph_register.obj"
+-input="E:\Embedded\Lab5last\lab5last\Debug\r_init_clock.obj"
+-input="E:\Embedded\Lab5last\lab5last\Debug\r_init_non_existent_port.obj"
+-input="E:\Embedded\Lab5last\lab5last\Debug\r_init_stop_module.obj"
+-input="E:\Embedded\Lab5last\lab5last\Debug\r_rspi_rx600.obj"
+-input="E:\Embedded\Lab5last\lab5last\Debug\r_switches.obj"
+-input="E:\Embedded\Lab5last\lab5last\Debug\resetprg.obj"
+-input="E:\Embedded\Lab5last\lab5last\Debug\sbrk.obj"
+-input="E:\Embedded\Lab5last\lab5last\Debug\st7579_lcd.obj"
+-input="E:\Embedded\Lab5last\lab5last\Debug\uart.obj"
+-input="E:\Embedded\Lab5last\lab5last\Debug\vecttbl.obj"
+-library="E:\Embedded\Lab5last\lab5last\Debug\lab5last.lib"
+-output="E:\Embedded\Lab5last\lab5last\Debug\lab5last.abs"
+-end
+
+*** Error information ***
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+
+SI
+                                  00000000  000003ff       400   4
+SU
+                                  00000400  000013ff      1000   4
+B_1
+                                  00001400  0000155a       15b   1
+R_1
+                                  0000155b  000015bb        61   1
+B_2
+                                  000015bc  000015c5         a   2
+R_2
+                                  000015c6  000015c6         0   2
+B
+                                  000015c8  00001a2b       464   4
+R
+                                  00001a2c  000024d3       aa8   4
+$ADDR_C_FF7FFFE8
+                                  ff7fffe8  ff7fffff        18   1
+C_1
+                                  fff80000  fff80ad1       ad2   1
+C_2
+                                  fff80ad2  fff80cd3       202   2
+C
+                                  fff80cd4  fff80d8b        b8   4
+C$DSEC
+                                  fff80d8c  fff80daf        24   4
+C$BSEC
+                                  fff80db0  fff80dc7        18   4
+C$VECT
+                                  fff80dc8  fff811c7       400   4
+L
+                                  fff811c8  fff814dc       315   4
+D
+                                  fff814e0  fff81f87       aa8   4
+D_2
+                                  fff81f88  fff81f88         0   2
+D_1
+                                  fff81f88  fff81fe8        61   1
+P
+                                  fff81fe9  fff87596      55ae   1
+W_1
+                                  fff87597  fff87597         0   1
+W_2
+                                  fff87598  fff87669        d2   2
+W
+                                  fff8766c  fff8766c         0   4
+$ADDR_C_FFFFFF80
+                                  ffffff80  ffffff8f        10   1
+FIXEDVECT
+                                  ffffff90  ffffffff        70   4

@@ -1,0 +1,4 @@
+-cpu=rx600
+-output="E:\Embedded\Lab5last\lab5last\Debug\lab5last.lib"
+-lang=c99
+-head=runtime,stdio,stdlib

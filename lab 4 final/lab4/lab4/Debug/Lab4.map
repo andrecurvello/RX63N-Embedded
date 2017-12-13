@@ -1,0 +1,91 @@
+Optimizing Linkage Editor (V.10.02.00.000)        26-Mar-2014 17:40:05
+
+*** Options ***
+
+-subcommand=F:\Embedded\Lab4\Lab4\Debug\Lab4.hlk
+-noprelink
+-rom=D=R,D_1=R_1,D_2=R_2
+-nomessage
+-vect=_undefined_interrupt_source_isr
+-list="F:\Embedded\Lab4\Lab4\Debug\Lab4.map"
+-nooptimize
+-start=SI,SU,B_1,R_1,B_2,R_2,B,R/00,C_1,C_2,C,C$*,L*,D*,P,W*/0FFF80000,FIXEDVECT/0FFFFFF90
+-nologo
+-input="F:\Embedded\Lab4\Lab4\Debug\dbsct.obj"
+-input="F:\Embedded\Lab4\Lab4\Debug\flash_options.obj"
+-input="F:\Embedded\Lab4\Lab4\Debug\font_8x8.obj"
+-input="F:\Embedded\Lab4\Lab4\Debug\glyph.obj"
+-input="F:\Embedded\Lab4\Lab4\Debug\hwsetup.obj"
+-input="F:\Embedded\Lab4\Lab4\Debug\lcd.obj"
+-input="F:\Embedded\Lab4\Lab4\Debug\lowlvl.obj"
+-input="F:\Embedded\Lab4\Lab4\Debug\lowsrc.obj"
+-input="F:\Embedded\Lab4\Lab4\Debug\main.obj"
+-input="F:\Embedded\Lab4\Lab4\Debug\r_glyph.obj"
+-input="F:\Embedded\Lab4\Lab4\Debug\r_glyph_register.obj"
+-input="F:\Embedded\Lab4\Lab4\Debug\r_rspi_rx600.obj"
+-input="F:\Embedded\Lab4\Lab4\Debug\r_switches.obj"
+-input="F:\Embedded\Lab4\Lab4\Debug\resetprg.obj"
+-input="F:\Embedded\Lab4\Lab4\Debug\sbrk.obj"
+-input="F:\Embedded\Lab4\Lab4\Debug\st7579_lcd.obj"
+-input="F:\Embedded\Lab4\Lab4\Debug\uart.obj"
+-input="F:\Embedded\Lab4\Lab4\Debug\vecttbl.obj"
+-library="F:\Embedded\Lab4\Lab4\Debug\Lab4.lib"
+-output="F:\Embedded\Lab4\Lab4\Debug\Lab4.abs"
+-end
+
+*** Error information ***
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+
+SI
+                                  00000000  000003ff       400   4
+SU
+                                  00000400  000013ff      1000   4
+B_1
+                                  00001400  00001527       128   1
+R_1
+                                  00001528  0000157c        55   1
+B_2
+                                  0000157e  0000157f         2   2
+R_2
+                                  00001580  00001580         0   2
+B
+                                  00001580  000019df       460   4
+R
+                                  000019e0  0000247f       aa0   4
+$ADDR_C_FF7FFFE8
+                                  ff7fffe8  ff7fffff        18   1
+C_1
+                                  fff80000  fff80ad1       ad2   1
+C_2
+                                  fff80ad2  fff80cd3       202   2
+C
+                                  fff80cd4  fff80d8b        b8   4
+C$DSEC
+                                  fff80d8c  fff80daf        24   4
+C$BSEC
+                                  fff80db0  fff80dc7        18   4
+C$VECT
+                                  fff80dc8  fff811c7       400   4
+L
+                                  fff811c8  fff81384       1bd   4
+D
+                                  fff81388  fff81e27       aa0   4
+D_2
+                                  fff81e28  fff81e28         0   2
+D_1
+                                  fff81e28  fff81e7c        55   1
+P
+                                  fff81e7d  fff86510      4694   1
+W_1
+                                  fff86511  fff86511         0   1
+W_2
+                                  fff86512  fff865e3        d2   2
+W
+                                  fff865e4  fff865e4         0   4
+$ADDR_C_FFFFFF80
+                                  ffffff80  ffffff8f        10   1
+FIXEDVECT
+                                  ffffff90  ffffffff        70   4

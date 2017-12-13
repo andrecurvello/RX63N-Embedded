@@ -1,0 +1,4 @@
+-cpu=rx600
+-output="C:\Users\Guest\Desktop\Lab7Final\Lab7Final\Debug\Lab7Final.lib"
+-lang=c99
+-head=runtime,stdio,stdlib

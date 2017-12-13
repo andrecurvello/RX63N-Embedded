@@ -1,0 +1,16 @@
+-cpu=rx600
+-lang=c99
+-include="E:\lab2mt\lab2\lab2\r_bsp"
+-include="E:\lab2mt\lab2\lab2\r_glyph"
+-include="E:\lab2mt\lab2\lab2\r_glyph\src"
+-include="E:\lab2mt\lab2\lab2\r_glyph\src\glyph"
+-include="E:\lab2mt\lab2\lab2\r_rspi_rx600"
+-include="E:\lab2mt\lab2\lab2\r_rspi_rx600\src"
+-include="E:\lab2mt\lab2\lab2\r_switches"
+-include="E:\lab2mt\lab2\lab2\r_switches\src"
+-include="E:\lab2mt\lab2\lab2\src"
+-output=obj="E:\lab2mt\lab2\lab2\Debug\r_rspi_rx600.obj"
+-debug
+-speed
+"E:\lab2mt\lab2\lab2\r_rspi_rx600\src\r_rspi_rx600.c"
+-nologo

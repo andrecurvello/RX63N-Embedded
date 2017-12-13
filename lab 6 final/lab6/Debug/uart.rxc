@@ -1,0 +1,16 @@
+-cpu=rx600
+-lang=c99
+-include="C:\Users\Madison\Dropbox\ECGR 4101\Lab 6 Final\Lab6\r_bsp"
+-include="C:\Users\Madison\Dropbox\ECGR 4101\Lab 6 Final\Lab6\r_glyph"
+-include="C:\Users\Madison\Dropbox\ECGR 4101\Lab 6 Final\Lab6\r_glyph\src"
+-include="C:\Users\Madison\Dropbox\ECGR 4101\Lab 6 Final\Lab6\r_glyph\src\glyph"
+-include="C:\Users\Madison\Dropbox\ECGR 4101\Lab 6 Final\Lab6\r_rspi_rx600"
+-include="C:\Users\Madison\Dropbox\ECGR 4101\Lab 6 Final\Lab6\r_rspi_rx600\src"
+-include="C:\Users\Madison\Dropbox\ECGR 4101\Lab 6 Final\Lab6\r_switches"
+-include="C:\Users\Madison\Dropbox\ECGR 4101\Lab 6 Final\Lab6\r_switches\src"
+-include="C:\Users\Madison\Dropbox\ECGR 4101\Lab 6 Final\Lab6\src"
+-output=obj="C:\Users\Madison\Dropbox\ECGR 4101\Lab 6 Final\Lab6\Debug\uart.obj"
+-debug
+-speed
+"C:\Users\Madison\Dropbox\ECGR 4101\Lab 6 Final\Lab6\src\uart.c"
+-nologo

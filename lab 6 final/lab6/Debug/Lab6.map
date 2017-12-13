@@ -1,0 +1,91 @@
+Optimizing Linkage Editor (V.10.02.00.000)        23-Apr-2014 05:17:54
+
+*** Options ***
+
+-subcommand=C:\Users\Madison\Dropbox\ECGR 4101\Lab 6 Final\Lab6\Debug\Lab6.hlk
+-noprelink
+-rom=D=R,D_1=R_1,D_2=R_2
+-nomessage
+-vect=_undefined_interrupt_source_isr
+-list="C:\Users\Madison\Dropbox\ECGR 4101\Lab 6 Final\Lab6\Debug\Lab6.map"
+-nooptimize
+-start=SI,SU,B_1,R_1,B_2,R_2,B,R/00,C_1,C_2,C,C$*,L*,D*,P,W*/0FFF80000,FIXEDVECT/0FFFFFF90
+-nologo
+-input="C:\Users\Madison\Dropbox\ECGR 4101\Lab 6 Final\Lab6\Debug\dbsct.obj"
+-input="C:\Users\Madison\Dropbox\ECGR 4101\Lab 6 Final\Lab6\Debug\flash_options.obj"
+-input="C:\Users\Madison\Dropbox\ECGR 4101\Lab 6 Final\Lab6\Debug\font_8x8.obj"
+-input="C:\Users\Madison\Dropbox\ECGR 4101\Lab 6 Final\Lab6\Debug\glyph.obj"
+-input="C:\Users\Madison\Dropbox\ECGR 4101\Lab 6 Final\Lab6\Debug\hwsetup.obj"
+-input="C:\Users\Madison\Dropbox\ECGR 4101\Lab 6 Final\Lab6\Debug\lcd.obj"
+-input="C:\Users\Madison\Dropbox\ECGR 4101\Lab 6 Final\Lab6\Debug\lowlvl.obj"
+-input="C:\Users\Madison\Dropbox\ECGR 4101\Lab 6 Final\Lab6\Debug\lowsrc.obj"
+-input="C:\Users\Madison\Dropbox\ECGR 4101\Lab 6 Final\Lab6\Debug\main.obj"
+-input="C:\Users\Madison\Dropbox\ECGR 4101\Lab 6 Final\Lab6\Debug\r_glyph.obj"
+-input="C:\Users\Madison\Dropbox\ECGR 4101\Lab 6 Final\Lab6\Debug\r_glyph_register.obj"
+-input="C:\Users\Madison\Dropbox\ECGR 4101\Lab 6 Final\Lab6\Debug\r_rspi_rx600.obj"
+-input="C:\Users\Madison\Dropbox\ECGR 4101\Lab 6 Final\Lab6\Debug\r_switches.obj"
+-input="C:\Users\Madison\Dropbox\ECGR 4101\Lab 6 Final\Lab6\Debug\resetprg.obj"
+-input="C:\Users\Madison\Dropbox\ECGR 4101\Lab 6 Final\Lab6\Debug\sbrk.obj"
+-input="C:\Users\Madison\Dropbox\ECGR 4101\Lab 6 Final\Lab6\Debug\st7579_lcd.obj"
+-input="C:\Users\Madison\Dropbox\ECGR 4101\Lab 6 Final\Lab6\Debug\uart.obj"
+-input="C:\Users\Madison\Dropbox\ECGR 4101\Lab 6 Final\Lab6\Debug\vecttbl.obj"
+-library="C:\Users\Madison\Dropbox\ECGR 4101\Lab 6 Final\Lab6\Debug\Lab6.lib"
+-output="C:\Users\Madison\Dropbox\ECGR 4101\Lab 6 Final\Lab6\Debug\Lab6.abs"
+-end
+
+*** Error information ***
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+
+SI
+                                  00000000  000003ff       400   4
+SU
+                                  00000400  000013ff      1000   4
+B_1
+                                  00001400  000015a1       1a2   1
+R_1
+                                  000015a2  00001602        61   1
+B_2
+                                  00001604  00001605         2   2
+R_2
+                                  00001606  00001606         0   2
+B
+                                  00001608  00001a6f       468   4
+R
+                                  00001a70  00002523       ab4   4
+$ADDR_C_FF7FFFE8
+                                  ff7fffe8  ff7fffff        18   1
+C_1
+                                  fff80000  fff80ad1       ad2   1
+C_2
+                                  fff80ad2  fff80cd3       202   2
+C
+                                  fff80cd4  fff80d8b        b8   4
+C$DSEC
+                                  fff80d8c  fff80daf        24   4
+C$BSEC
+                                  fff80db0  fff80dc7        18   4
+C$VECT
+                                  fff80dc8  fff811c7       400   4
+L
+                                  fff811c8  fff81560       399   4
+D
+                                  fff81564  fff82017       ab4   4
+D_2
+                                  fff82018  fff82018         0   2
+D_1
+                                  fff82018  fff82078        61   1
+P
+                                  fff82079  fff873fb      5383   1
+W_1
+                                  fff873fc  fff873fc         0   1
+W_2
+                                  fff873fc  fff874cd        d2   2
+W
+                                  fff874d0  fff874d0         0   4
+$ADDR_C_FFFFFF80
+                                  ffffff80  ffffff8f        10   1
+FIXEDVECT
+                                  ffffff90  ffffffff        70   4

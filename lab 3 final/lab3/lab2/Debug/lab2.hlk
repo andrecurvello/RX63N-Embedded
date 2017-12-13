@@ -1,0 +1,33 @@
+-noprelink
+-rom=D=R,D_1=R_1,D_2=R_2
+-nomessage
+-vect=_undefined_interrupt_source_isr
+-list="C:\Users\Guest\Desktop\New folder\lab3\lab2\Debug\lab2.map"
+-nooptimize
+-start=SI,SU,B_1,R_1,B_2,R_2,B,R/00,C_1,C_2,C,C$*,L*,D*,P,W*/0FFF80000,FIXEDVECT/0FFFFFF90
+-nologo
+-input="C:\Users\Guest\Desktop\New folder\lab3\lab2\Debug\dbsct.obj"
+-input="C:\Users\Guest\Desktop\New folder\lab3\lab2\Debug\flash_options.obj"
+-input="C:\Users\Guest\Desktop\New folder\lab3\lab2\Debug\font_8x8.obj"
+-input="C:\Users\Guest\Desktop\New folder\lab3\lab2\Debug\glyph.obj"
+-input="C:\Users\Guest\Desktop\New folder\lab3\lab2\Debug\hwsetup.obj"
+-input="C:\Users\Guest\Desktop\New folder\lab3\lab2\Debug\lcd.obj"
+-input="C:\Users\Guest\Desktop\New folder\lab3\lab2\Debug\lowlvl.obj"
+-input="C:\Users\Guest\Desktop\New folder\lab3\lab2\Debug\lowsrc.obj"
+-input="C:\Users\Guest\Desktop\New folder\lab3\lab2\Debug\main.obj"
+-input="C:\Users\Guest\Desktop\New folder\lab3\lab2\Debug\r_glyph.obj"
+-input="C:\Users\Guest\Desktop\New folder\lab3\lab2\Debug\r_glyph_register.obj"
+-input="C:\Users\Guest\Desktop\New folder\lab3\lab2\Debug\r_rspi_rx600.obj"
+-input="C:\Users\Guest\Desktop\New folder\lab3\lab2\Debug\r_switches.obj"
+-input="C:\Users\Guest\Desktop\New folder\lab3\lab2\Debug\resetprg.obj"
+-input="C:\Users\Guest\Desktop\New folder\lab3\lab2\Debug\sbrk.obj"
+-input="C:\Users\Guest\Desktop\New folder\lab3\lab2\Debug\st7579_lcd.obj"
+-input="C:\Users\Guest\Desktop\New folder\lab3\lab2\Debug\vecttbl.obj"
+-library="C:\Users\Guest\Desktop\New folder\lab3\lab2\Debug\lab2.lib"
+-output="C:\Users\Guest\Desktop\New folder\lab3\lab2\Debug\lab2.abs"
+-end
+-input="C:\Users\Guest\Desktop\New folder\lab3\lab2\Debug\lab2.abs"
+-form=stype
+-output="C:\Users\Guest\Desktop\New folder\lab3\lab2\Debug\lab2.mot"
+-exit
+

@@ -1,0 +1,19 @@
+[HIMDBVersion]
+2.0
+[DATABASE_VERSION]
+"1.2" 
+[CURRENT_PROJECT]
+"Lab7Final" 
+[GENERAL_DATA]
+[BREAKPOINTS]
+[OPEN_WORKSPACE_FILES]
+"C:\Users\Guest\Desktop\Lab7Final\Lab7Final\r_bsp\board\rdkrx63n\lowlvl.src" 
+"C:\Users\Guest\Desktop\Lab7Final\Lab7Final\r_rspi_rx600\src\r_rspi_rx600.c" 
+"C:\Users\Guest\Desktop\Lab7Final\Lab7Final\src\main.c" 
+[WORKSPACE_FILE_STATES]
+"C:\Users\Guest\Desktop\Lab7Final\Lab7Final\r_bsp\board\rdkrx63n\lowlvl.src" 175 175 868 411 0 2 
+"C:\Users\Guest\Desktop\Lab7Final\Lab7Final\r_rspi_rx600\src\r_rspi_rx600.c" 150 150 868 411 0 1 
+"C:\Users\Guest\Desktop\Lab7Final\Lab7Final\src\main.c" -8 -30 1084 668 1 0 
+[LOADED_PROJECTS]
+"Lab7Final" 
+[END]

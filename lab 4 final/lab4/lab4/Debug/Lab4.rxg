@@ -1,0 +1,4 @@
+-cpu=rx600
+-output="F:\Embedded\Lab4\Lab4\Debug\Lab4.lib"
+-lang=c99
+-head=runtime,stdio,stdlib

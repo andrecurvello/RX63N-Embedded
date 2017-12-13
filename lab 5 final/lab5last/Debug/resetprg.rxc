@@ -1,0 +1,16 @@
+-cpu=rx600
+-lang=c99
+-include="E:\Embedded\Lab5last\lab5last\r_bsp"
+-include="E:\Embedded\Lab5last\lab5last\r_glyph"
+-include="E:\Embedded\Lab5last\lab5last\r_glyph\src"
+-include="E:\Embedded\Lab5last\lab5last\r_glyph\src\glyph"
+-include="E:\Embedded\Lab5last\lab5last\r_rspi_rx600"
+-include="E:\Embedded\Lab5last\lab5last\r_rspi_rx600\src"
+-include="E:\Embedded\Lab5last\lab5last\r_switches"
+-include="E:\Embedded\Lab5last\lab5last\r_switches\src"
+-include="E:\Embedded\Lab5last\lab5last\src"
+-output=obj="E:\Embedded\Lab5last\lab5last\Debug\resetprg.obj"
+-debug
+-speed
+"E:\Embedded\Lab5last\lab5last\r_bsp\board\rdkrx63n\resetprg.c"
+-nologo

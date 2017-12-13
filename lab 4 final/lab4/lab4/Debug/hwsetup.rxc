@@ -1,0 +1,16 @@
+-cpu=rx600
+-lang=c99
+-include="F:\Embedded\Lab4\Lab4\r_bsp"
+-include="F:\Embedded\Lab4\Lab4\r_glyph"
+-include="F:\Embedded\Lab4\Lab4\r_glyph\src"
+-include="F:\Embedded\Lab4\Lab4\r_glyph\src\glyph"
+-include="F:\Embedded\Lab4\Lab4\r_rspi_rx600"
+-include="F:\Embedded\Lab4\Lab4\r_rspi_rx600\src"
+-include="F:\Embedded\Lab4\Lab4\r_switches"
+-include="F:\Embedded\Lab4\Lab4\r_switches\src"
+-include="F:\Embedded\Lab4\Lab4\src"
+-output=obj="F:\Embedded\Lab4\Lab4\Debug\hwsetup.obj"
+-debug
+-speed
+"F:\Embedded\Lab4\Lab4\r_bsp\board\rdkrx63n\hwsetup.c"
+-nologo

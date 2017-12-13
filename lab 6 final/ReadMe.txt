@@ -1,0 +1,2 @@
+The interrputs need to be fixed such that the internal reference voltage and potentiometer can be read at the same time.
+This should include a way to reference the temperature, then voltage and then default back to the pot reading.
